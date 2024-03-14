@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1dcb8c8-7aba-4eca-8a66-9d460238cc77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day01_login" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Ruiblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruiblog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruiblog/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruiblog/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruiblog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruiblog/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/day03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/.idea/Day03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/Day03/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/Day03/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/Day03/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/Day03/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/Day03/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/ext/md.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/Day03/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../depart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../depart/.idea/depart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/djangoProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/djangoProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/djangoProject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/djangoProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/djangoProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/djangoProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/templates/phone_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/web/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2d8JvMSr6TsA28Cff2FQywtDwx6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Django Server.Ruiblog.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Ruiblog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Ruiblog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Ruiblog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1dcb8c8-7aba-4eca-8a66-9d460238cc77" name="Changes" comment="" />
+      <created>1709384001288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709384001288</updated>
+      <workItem from="1709384010357" duration="37946000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
