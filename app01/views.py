@@ -1,5 +1,6 @@
 import json
-
+import random
+from django.core.cache import cache
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.utils.decorators import method_decorator
@@ -7,6 +8,8 @@ from django.views import View
 from .models import UserProfile
 import hashlib
 from tools.logging_dec import logging_check
+from tools.sms import YunTongXin
+from .tasks import send_sms_c
 #异常码 10100 - 10199
 
 
@@ -54,10 +57,20 @@ class UserViews(View):
         password_1 = json_obj['password_1']
         password_2 = json_obj['password_2']
         phone = json_obj['phone']
+        sms_num = json_obj['sms_num']
 
         if password_1 != password_2:
             result = {'code':10100, 'error':'The two passwords do not match'}
             return JsonResponse(result)
+
+        old_code = cache.get('sms_%s'%(phone))
+        if not old_code:
+            result = {'code':10110, 'error':"验证码过期"}
+            return JsonResponse(result)
+        if int(sms_num) != old_code:
+            result = {'code': 10111, 'error': "验证码错误"}
+            return JsonResponse(result)
+
 
         #参数基本检查
         #检查用户名是否可用
@@ -91,6 +104,41 @@ class UserViews(View):
 
         user.save()
         return JsonResponse({'code':200})
+
+def sms_view(request):
+    if request.method != 'POST':
+        result = {'code':10108, 'error':'Please use post method'}
+        return JsonResponse(result)
+
+    json_str = request.body
+    json_obj = json.loads(json_str)
+    phone = json_obj['phone']
+    code = random.randint(1000, 9999)
+    #存储验证码 django_redis
+    cache_key = 'sms_%d' %(int(phone))
+    #检查是否已经有有效期内的验证码
+    old_code = cache.get(cache_key)
+    if old_code:
+        result = {'code': 10111, 'error': '验证码已经被发送'}
+        return JsonResponse(result)
+    cache.set(cache_key, code, 60)
+    #send_sms(phone,code)
+    #celery版本发送:即使第三方平台（容联云）阻塞，并不会影响django，仍然可以迅速返回响应
+    send_sms_c(phone,code)
+    return JsonResponse({'code':200, })
+
+def send_sms(phone,code):
+    config = {
+        'accountSid': '2c94811c8cd4da0a018e3ca4d07a3971',
+        'accountToken': '0d91d04940684cdb947de694a04fc166',
+        'appId': '2c94811c8cd4da0a018e3ca4d2133978',
+        'templateId': '1'
+    }
+    yun = YunTongXin(**config)
+    res = yun.run(phone, code)
+    print(res)
+
+
 
 
 
