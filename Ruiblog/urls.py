@@ -26,6 +26,7 @@ urlpatterns = [
     path('v1/users', user_views.UserViews.as_view()),
     path('v1/users/', include('app01.urls')),
     path('v1/tokens', dtoken_views.tokens),
+    path('v1/topics/', include ('topic.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -10,7 +10,7 @@ def logging_check(func):
         if not token:
             result = {'code':403, 'error':'Please login'}
             return JsonResponse(result)
-    #校验jwt
+    #校验jwt,从请求头里取出，这里可以拿到username
         try:
             res = jwt.decode(token, settings.JWT_TOKEN_KEY, algorithms=['HS256'])
         except Exception as e:
@@ -22,3 +22,17 @@ def logging_check(func):
         request.myuser = user
         return func(request, *args, **kwargs)
     return wrap
+
+
+
+def get_user_by_request(request):
+    token = request.META.get('HTTP_AUTHORIZATION')
+    if not token:
+        return None
+    try:
+        res = jwt.decode(token, settings.JWT_TOKEN_KEY, algorithms = ['HS256'])
+    except Exception as e:
+        return None
+    username = res['username']
+    user = UserProfile.objects.get(username=username)
+    return user
