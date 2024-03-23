@@ -11,5 +11,5 @@ class Topic(models.Model):
     content = models.TextField(verbose_name='文章内容') #TextField可变长度文本存储
     created_time = models.DateTimeField(auto_now_add=True)
     updated_time = models.DateTimeField(auto_now=True, verbose_name='更新时间')
-    author = models.ForeignKey(UserProfile, on_delete=models.CASCADE) #作者为外键
+    author = models.ForeignKey(UserProfile,on_delete=models.CASCADE) #作者为外键
 
